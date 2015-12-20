@@ -12,8 +12,16 @@
     tools:context="com.ajb.rxjavasandbox.MainActivity"
     tools:showIn="@layout/activity_main">
 
-    <TextView
+    <Button
+        android:id="@+id/just_observable_click"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Just Observable!" />
+
+    <Button
+        android:id="@+id/custom_observable_clicked"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/just_observable_click"
+        android:text="Custom Observable!" />
 </RelativeLayout>
